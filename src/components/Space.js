@@ -12,7 +12,7 @@ const Space = (props) => {
   };
 
   const onSpaceClick = () => {
-    console.log(getSpacePosition());
+    props.onClickHandler(getSpacePosition());
   };
 
   return(
